@@ -266,6 +266,29 @@ list-style-type: none;
   margin-left:3px;
 }
 
+.advise-num {
+    background-color: rgb(15, 76, 129);
+    border: solid 2px white;
+}
+.advise-title {
+    background-color: rgb(15, 76, 129);
+    border: solid 2px white;
+}
+.date-person {
+    border-right: solid 2px white;
+    border-left: solid 2px white;
+    background-color: rgb(15, 76, 129);
+}
+.review {
+    border: solid 2px white;
+    background-color: rgb(92, 154, 207);
+}
+.advise p {
+    color: white;
+}
+.advise-detail {
+    border: solid 2px brown;
+}
 
 /*more lang*/
 .more_lang{
