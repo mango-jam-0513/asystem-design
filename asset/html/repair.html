@@ -1,0 +1,514 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+        <title>advise</title>
+        <!--  include bootstrap css  -->
+        <link rel="stylesheet" href="../css/bootstrap.min.css">
+        <!--  include animate css  -->
+        <link rel="stylesheet" href="../css/animate.css">
+        <!--  include owl carousel css  -->
+        <link rel="stylesheet" href="../css/owl.carousel.min.css">
+        <!--  include fontawesome css  -->
+        <!-- <link rel="stylesheet" href="./asset/css/fontawesome5-8-1.css"> -->
+        <!-- style CSS -->
+        <link rel="stylesheet" href="../css/style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+    </head>
+<body>
+    <nav class="navbar navbar-expand-md navbar-light  sticky-top">
+        <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"> 
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <a href="userlogin.html"><img src="https://i.ibb.co/QDy827D/ak-logo.png" class="img-fluid" alt="logo" id="logoM"></a>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-items active">
+                        <a href="../../userlogin.html" class="nav-link">Home</a>
+                    </li>
+                    <li class="nav-items">
+                        <a href="./greeting.html" class="nav-link">Greeting</a>
+                    </li>
+                    <li class="nav-items">
+                        <a href="./ground.html" class="nav-link">Ground</a>
+                    </li>
+                    <li class="nav-items">
+                        <a href="./location.html" class="nav-link">Location</a>
+                    </li>
+                    <li class="nav-items">
+                        <a href="#" class="nav-link">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="login">
+                <input type="button" class="btn-login" value="login">
+            </div>
+            <div class="lang">
+                <div class="translate_wrapper">
+                    <div class="current_lang">
+                      <div class="lang">
+                        <img src="https://upload.wikimedia.org/wikipedia/en/a/a4/Flag_of_the_United_States.svg">
+                        <span class="lang-txt">EN</span> 
+                        <span class="fa fa-chevron-down chevron"></span>
+                      </div>
+                    </div>
+                    <div class="more_lang">
+                      
+                      <div class="lang" data-value='ko'>
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/0/09/Flag_of_South_Korea.svg">
+                        <span class="lang-txt">한국어</span>      
+                      </div>
+                      
+                      <div class="lang selected" data-value='en'>
+                        <img src="https://upload.wikimedia.org/wikipedia/en/a/a4/Flag_of_the_United_States.svg">
+                        <span class="lang-txt">English</span>      
+                      </div>
+                     
+                      
+                       <div class="lang" data-value='vi'>
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/2/21/Flag_of_Vietnam.svg">
+                        <span class="lang-txt">Tiếng Việt</span>      
+                      </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+    
+    <main>
+        <div class="notification-content container">
+            <div class="content-detail row bg-light m-0 mb-2">
+                <div class="number col-2 d-flex text-center justify-content-center align-items-center">
+                    <p class="m-0 p-2">1234</p>
+                </div>
+                <div class="noti-title col-10 d-flex text-center justify-content-center align-items-center">
+                    <div class="noti-icons">
+                        <i class="fas fa-exclamation m-2"></i>
+                        <i class="fas fa-exclamation-triangle"></i>
+                    </div>
+                    <!-- modal -->
+                    <a href="#" data-toggle="modal" data-target="#myModal" class="button m-0 p-2 ml-auto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi, id?</a>
+                    <div class="modal fade" id="myModal">
+                        <div class="modal-dialog modal-md bg-light">
+                            <div class="modal-header container-fluid">
+                                <div class="modal-title col-12 d-flex text-center justify-content-center">
+                                    <h3>Lorem ipsum dolor sit amet.</h3>
+                                </div>
+                            </div>
+                            <div class="modal-body container-fluid">
+                                <div class="modal-detail col-12 d-flex text-center justify-content-center">
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae cupiditate vel enim eveniet reprehenderit unde eos nisi ea, et blanditiis asperiores similique sequi cum nulla perspiciatis. Doloribus ipsum a ullam.</p>
+                                </div>
+                            </div>
+                            <div class="container-fluid d-flex mt-5">
+                                <div class="nodal-detail col-3 text-center justify-content-center mr-1">
+                                    <p>2134</p>
+                                </div>
+                                <div class="nodal-detail col-5 text-center justify-content-center mr-1">
+                                    <p>2020/10/16</p>
+                                </div>
+                                <div class="nodal-detail col-4 text-center justify-content-center">
+                                    <p>resident</p>
+                                </div>
+                            </div>
+                            <div class="modal-footer">
+                                <input class="btn btn-primary" data-dismiss="modal" value="Close">
+                            </div>
+                        </div>
+                    </div>
+                    <!-- / modal -->
+                </div>
+                <div class="date col-2 d-flex text-center justify-content-center align-items-center">
+                    <p class="m-0 p-2">2020/10/14</p>
+                </div>
+                <div class="noti-register col-10 d-flex text-center justify-content-center align-items-center">
+                    <p class="m-0 p-2 ml-auto">management station</p>
+                </div>
+            </div>
+            <div class="content-detail row bg-light m-0 mb-2">
+                <div class="number col-2 d-flex text-center justify-content-center align-items-center">
+                    <p class="m-0 p-2">1234</p>
+                </div>
+                <div class="noti-title col-10 d-flex text-center justify-content-center align-items-center">
+                    <i class="fas fa-exclamation-triangle"></i>
+                    <!-- modal -->
+                    <a href="#" data-toggle="modal" data-target="#myModal" class="button m-0 p-2 ml-auto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi, id?</a>
+                    <div class="modal fade" id="myModal">
+                        <div class="modal-dialog modal-md bg-light">
+                            <div class="modal-header container-fluid">
+                                <div class="modal-title col-12 d-flex text-center justify-content-center">
+                                    <h3>Lorem ipsum dolor sit amet.</h3>
+                                </div>
+                            </div>
+                            <div class="modal-body container-fluid">
+                                <div class="modal-detail col-12 d-flex text-center justify-content-center">
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae cupiditate vel enim eveniet reprehenderit unde eos nisi ea, et blanditiis asperiores similique sequi cum nulla perspiciatis. Doloribus ipsum a ullam.</p>
+                                </div>
+                            </div>
+                            <div class="container-fluid d-flex mt-5">
+                                <div class="nodal-detail col-3 text-center justify-content-center mr-1">
+                                    <p>2134</p>
+                                </div>
+                                <div class="nodal-detail col-5 text-center justify-content-center mr-1">
+                                    <p>2020/10/16</p>
+                                </div>
+                                <div class="nodal-detail col-4 text-center justify-content-center">
+                                    <p>resident</p>
+                                </div>
+                            </div>
+                            <div class="modal-footer">
+                                <input class="btn btn-primary" data-dismiss="modal" value="Close">
+                            </div>
+                        </div>
+                    </div>
+                    <!-- / modal -->
+                </div>
+                <div class="date col-2 d-flex text-center justify-content-center align-items-center">
+                    <p class="m-0 p-2">2020/10/14</p>
+                </div>
+                <div class="noti-register col-10 d-flex text-center justify-content-center align-items-center">
+                    <p class="m-0 p-2 ml-auto">management station</p>
+                </div>
+            </div>
+            <div class="content-detail row bg-light m-0 mb-2">
+                <div class="number col-2 d-flex text-center justify-content-center align-items-center">
+                    <p class="m-0 p-2">1234</p>
+                </div>
+                <div class="noti-title col-10 d-flex text-center justify-content-center align-items-center">
+                    <!-- modal -->
+                    <a href="#" data-toggle="modal" data-target="#myModal" class="button m-0 p-2 ml-auto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi, id?</a>
+                    <div class="modal fade" id="myModal">
+                        <div class="modal-dialog modal-md bg-light">
+                            <div class="modal-header container-fluid">
+                                <div class="modal-title col-12 d-flex text-center justify-content-center">
+                                    <h3>Lorem ipsum dolor sit amet.</h3>
+                                </div>
+                            </div>
+                            <div class="modal-body container-fluid">
+                                <div class="modal-detail col-12 d-flex text-center justify-content-center">
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae cupiditate vel enim eveniet reprehenderit unde eos nisi ea, et blanditiis asperiores similique sequi cum nulla perspiciatis. Doloribus ipsum a ullam.</p>
+                                </div>
+                            </div>
+                            <div class="container-fluid d-flex mt-5">
+                                <div class="nodal-detail col-3 text-center justify-content-center mr-1">
+                                    <p>2134</p>
+                                </div>
+                                <div class="nodal-detail col-5 text-center justify-content-center mr-1">
+                                    <p>2020/10/16</p>
+                                </div>
+                                <div class="nodal-detail col-4 text-center justify-content-center">
+                                    <p>resident</p>
+                                </div>
+                            </div>
+                            <div class="modal-footer">
+                                <input class="btn btn-primary" data-dismiss="modal" value="Close">
+                            </div>
+                        </div>
+                    </div>
+                    <!-- / modal -->
+                </div>
+                <div class="date col-2 d-flex text-center justify-content-center align-items-center">
+                    <p class="m-0 p-2">2020/10/14</p>
+                </div>
+                <div class="noti-register col-10 d-flex text-center justify-content-center align-items-center">
+                    <p class="m-0 p-2 ml-auto">resident</p>
+                </div>
+            </div>
+            <div class="content-detail row bg-light m-0 mb-2">
+                <div class="number col-2 d-flex text-center justify-content-center align-items-center">
+                    <p class="m-0 p-2">1234</p>
+                </div>
+                <div class="noti-title col-10 d-flex text-center justify-content-center align-items-center">
+                    <!-- modal -->
+                    <a href="#" data-toggle="modal" data-target="#myModal" class="button m-0 p-2 ml-auto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi, id?</a>
+                    <div class="modal fade" id="myModal">
+                        <div class="modal-dialog modal-md bg-light">
+                            <div class="modal-header container-fluid">
+                                <div class="modal-title col-12 d-flex text-center justify-content-center">
+                                    <h3>Lorem ipsum dolor sit amet.</h3>
+                                </div>
+                            </div>
+                            <div class="modal-body container-fluid">
+                                <div class="modal-detail col-12 d-flex text-center justify-content-center">
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae cupiditate vel enim eveniet reprehenderit unde eos nisi ea, et blanditiis asperiores similique sequi cum nulla perspiciatis. Doloribus ipsum a ullam.</p>
+                                </div>
+                            </div>
+                            <div class="container-fluid d-flex mt-5">
+                                <div class="nodal-detail col-3 text-center justify-content-center mr-1">
+                                    <p>2134</p>
+                                </div>
+                                <div class="nodal-detail col-5 text-center justify-content-center mr-1">
+                                    <p>2020/10/16</p>
+                                </div>
+                                <div class="nodal-detail col-4 text-center justify-content-center">
+                                    <p>resident</p>
+                                </div>
+                            </div>
+                            <div class="modal-footer">
+                                <input class="btn btn-primary" data-dismiss="modal" value="Close">
+                            </div>
+                        </div>
+                    </div>
+                    <!-- / modal -->
+                </div>
+                <div class="date col-2 d-flex text-center justify-content-center align-items-center">
+                    <p class="m-0 p-2">2020/10/14</p>
+                </div>
+                <div class="noti-register col-10 d-flex text-center justify-content-center align-items-center">
+                    <p class="m-0 p-2 ml-auto">management station</p>
+                </div>
+            </div>
+            <div class="content-detail row bg-light m-0 mb-2">
+                <div class="number col-2 d-flex text-center justify-content-center align-items-center">
+                    <p class="m-0 p-2">1234</p>
+                </div>
+                <div class="noti-title col-10 d-flex text-center justify-content-center align-items-center">
+                    <i class="fas fa-check"></i>
+                    <i class="fas fa-exclamation m-2"></i>
+                    <!-- modal -->
+                    <a href="#" data-toggle="modal" data-target="#myModal" class="button m-0 p-2 ml-auto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi, id?</a>
+                    <div class="modal fade" id="myModal">
+                        <div class="modal-dialog modal-md bg-light">
+                            <div class="modal-header container-fluid">
+                                <div class="modal-title col-12 d-flex text-center justify-content-center">
+                                    <h3>Lorem ipsum dolor sit amet.</h3>
+                                </div>
+                            </div>
+                            <div class="modal-body container-fluid">
+                                <div class="modal-detail col-12 d-flex text-center justify-content-center">
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae cupiditate vel enim eveniet reprehenderit unde eos nisi ea, et blanditiis asperiores similique sequi cum nulla perspiciatis. Doloribus ipsum a ullam.</p>
+                                </div>
+                            </div>
+                            <div class="container-fluid d-flex mt-5">
+                                <div class="modal-desc col-3 text-center justify-content-center mr-1">
+                                    <p>2134</p>
+                                </div>
+                                <div class="modal-desc col-5 text-center justify-content-center mr-1">
+                                    <p>2020/10/16</p>
+                                </div>
+                                <div class="modal-desc col-4 text-center justify-content-center">
+                                    <p>resident</p>
+                                </div>
+                            </div>
+                            <div class="modal-footer">
+                                <input class="btn btn-primary" data-dismiss="modal" value="Close">
+                            </div>
+                        </div>
+                    </div>
+                    <!-- / modal -->
+                </div>
+                <div class="date col-2 d-flex text-center justify-content-center align-items-center">
+                    <p class="m-0 p-2">2020/10/14</p>
+                </div>
+                <div class="noti-register col-10 d-flex text-center justify-content-center align-items-center">
+                    <p class="m-0 p-2 ml-auto">resident</p>
+                </div>
+            </div>
+            <div class="content-detail row bg-light m-0 mb-2">
+                <div class="number col-2 d-flex text-center justify-content-center align-items-center">
+                    <p class="m-0 p-2">1234</p>
+                </div>
+                <div class="noti-title col-10 d-flex text-center justify-content-center align-items-center">
+                    <!-- modal -->
+                    <a href="#" data-toggle="modal" data-target="#myModal" class="button m-0 p-2 ml-auto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi, id?</a>
+                    <div class="modal fade" id="myModal">
+                        <div class="modal-dialog modal-md bg-light">
+                            <div class="modal-header container-fluid">
+                                <div class="modal-title col-12 d-flex text-center justify-content-center">
+                                    <h3>Lorem ipsum dolor sit amet.</h3>
+                                </div>
+                            </div>
+                            <div class="modal-body container-fluid">
+                                <div class="modal-detail col-12 d-flex text-center justify-content-center">
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae cupiditate vel enim eveniet reprehenderit unde eos nisi ea, et blanditiis asperiores similique sequi cum nulla perspiciatis. Doloribus ipsum a ullam.</p>
+                                </div>
+                            </div>
+                            <div class="container-fluid d-flex mt-5">
+                                <div class="nodal-detail col-3 text-center justify-content-center mr-1">
+                                    <p>2134</p>
+                                </div>
+                                <div class="nodal-detail col-5 text-center justify-content-center mr-1">
+                                    <p>2020/10/16</p>
+                                </div>
+                                <div class="nodal-detail col-4 text-center justify-content-center">
+                                    <p>resident</p>
+                                </div>
+                            </div>
+                            <div class="modal-footer">
+                                <input class="btn btn-primary" data-dismiss="modal" value="Close">
+                            </div>
+                        </div>
+                    </div>
+                    <!-- / modal -->
+                </div>
+                <div class="date col-2 d-flex text-center justify-content-center align-items-center">
+                    <p class="m-0 p-2">2020/10/14</p>
+                </div>
+                <div class="noti-register col-10 d-flex text-center justify-content-center align-items-center">
+                    <p class="m-0 p-2 ml-auto">resident</p>
+                </div>
+            </div>
+            <div class="content-detail row bg-light m-0 mb-2">
+                <div class="number col-2 d-flex text-center justify-content-center align-items-center">
+                    <p class="m-0 p-2">1234</p>
+                </div>
+                <div class="noti-title col-10 d-flex text-center justify-content-center align-items-center">
+                    <!-- modal -->
+                    <a href="#" data-toggle="modal" data-target="#myModal" class="button m-0 p-2 ml-auto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi, id?</a>
+                    <div class="modal fade" id="myModal">
+                        <div class="modal-dialog modal-md bg-light">
+                            <div class="modal-header container-fluid">
+                                <div class="modal-title col-12 d-flex text-center justify-content-center">
+                                    <h3>Lorem ipsum dolor sit amet.</h3>
+                                </div>
+                            </div>
+                            <div class="modal-body container-fluid">
+                                <div class="modal-detail col-12 d-flex text-center justify-content-center">
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae cupiditate vel enim eveniet reprehenderit unde eos nisi ea, et blanditiis asperiores similique sequi cum nulla perspiciatis. Doloribus ipsum a ullam.</p>
+                                </div>
+                            </div>
+                            <div class="container-fluid d-flex mt-5">
+                                <div class="nodal-detail col-3 text-center justify-content-center mr-1">
+                                    <p>2134</p>
+                                </div>
+                                <div class="nodal-detail col-5 text-center justify-content-center mr-1">
+                                    <p>2020/10/16</p>
+                                </div>
+                                <div class="nodal-detail col-4 text-center justify-content-center">
+                                    <p>resident</p>
+                                </div>
+                            </div>
+                            <div class="modal-footer">
+                                <input class="btn btn-primary" data-dismiss="modal" value="Close">
+                            </div>
+                        </div>
+                    </div>
+                    <!-- / modal -->
+                </div>
+                <div class="date col-2 d-flex text-center justify-content-center align-items-center">
+                    <p class="m-0 p-2 ">2020/10/14</p>
+                </div>
+                <div class="noti-register col-10 d-flex text-center justify-content-center align-items-center">
+                    <p class="m-0 p-2 ml-auto">agency</p>
+                </div>
+            </div>
+            <div class="pagination row m-0">
+                    <div class="mr-auto ml-4"><a href="#">Prev Page</a></div>
+                    <div class="mr-4"><a href="#">Next Page</a></div>
+            </div>
+        </div>
+    </main>
+    
+    <footer class="footer-section">
+        <div class="container">
+            <div class="footer-cta pt-5 pb-5">
+                <div class="row">
+                    <div class="col-xl-4 col-md-4 mb-30">
+                        <div class="single-cta">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div class="cta-text">
+                                <h4>Find us</h4>
+                                <span>1010 Avenue, sw 54321, chandigarh</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-md-4 mb-30">
+                        <div class="single-cta">
+                            <i class="fas fa-phone"></i>
+                            <div class="cta-text">
+                                <h4>Call us</h4>
+                                <span>9876543210 0</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-md-4 mb-30">
+                        <div class="single-cta">
+                            <i class="far fa-envelope-open"></i>
+                            <div class="cta-text">
+                                <h4>Mail us</h4>
+                                <span>mail@info.com</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-content pt-5 pb-5">
+                <div class="row">
+                    <div class="col-xl-4 col-lg-4 mb-50">
+                        <div class="footer-widget">
+                            <div class="footer-logo">
+                                <a href="userlogin.html"><img src="https://i.ibb.co/QDy827D/ak-logo.png" class="img-fluid" alt="logo"></a>
+                            </div>
+                            <div class="footer-text">
+                                <p>Lorem ipsum dolor sit amet, consec tetur adipisicing elit, sed do eiusmod tempor incididuntut consec tetur adipisicing
+                                elit,Lorem ipsum dolor sit amet.</p>
+                            </div>
+                            <div class="footer-social-icon">
+                                <span>Follow us</span>
+                                <a href="#"><i class="fab fa-facebook-f facebook-bg"></i></a>
+                                <a href="#"><i class="fab fa-twitter twitter-bg"></i></a>
+                                <a href="#"><i class="fab fa-google-plus-g google-bg"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-lg-4 col-md-6 mb-30">
+                        <div class="footer-widget">
+                            <div class="footer-widget-heading">
+                                <h3>Useful Links</h3>
+                            </div>
+                            <ul>
+                                <li><a href="./userlogin.html">Home</a></li>
+                                <li><a href="./asset/html/greeting.html">Greeting</a></li>
+                                <li><a href="./asset/html/ground.html">Ground</a></li>
+                                <li><a href="./asset/html/location.html">Location</a></li>
+                                <li><a href="#">Contact</a></li>
+                                
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-lg-4 col-md-6 mb-50">
+                        <div class="footer-widget">
+                            <div class="footer-widget-heading">
+                                <h3>Subscribe</h3>
+                            </div>
+                            <div class="footer-text mb-25">
+                                <p>Don’t miss to subscribe to our new feeds, kindly fill the form below.</p>
+                            </div>
+                            <div class="subscribe-form">
+                                <form action="#">
+                                    <input type="text" placeholder="Email Address">
+                                    <button><i class="fab fa-telegram-plane"></i></button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="copyright-area">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-12 col-lg-12 text-center align-items-center justify-content-center">
+                        <div class="copyright-text">
+                            <p>Copyright &copy; 2020, All Right Reserved <a href="#">MangoJam</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+    <!-- jquery -->
+    <script src="../js/jquery-3.5.1.min.js"></script>
+    <!-- bootstrap bundle js -->
+    <script src="../js/bootstrap.bundle.min.js"></script>
+    <!-- owl carousel js -->
+    <script src="../js/owl.carousel.min.js"></script>
+    <!-- custom js -->
+    <script src="../js/custom.js"></script>
+</body>
+</html>

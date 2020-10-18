@@ -23,6 +23,9 @@ list-style-type: none;
 .collapse a {
     color: white!important;
 }
+#logoM {
+    width: 13rem;
+}
 .btn-login {
     margin-right: 1.3rem;
 }
@@ -265,6 +268,9 @@ list-style-type: none;
   top:-1px;
   margin-left:3px;
 }
+.more_lang {
+    position: absolute;
+}
 
 .advise-num {
     background-color: rgb(15, 76, 129);
@@ -365,7 +371,7 @@ main {
 .notification-content {
     background-color: pink;
     padding: 0;
-    height: 69.5vh;
+    height: 92.8vh;
 }
 .notification-content .content-detail a {
     text-decoration: none;
@@ -543,3 +549,41 @@ ul {
   font-size: 14px;
   color: #878787;
 }
+/* -------------------login----------------- */
+main .card {
+    background-color: #3475;
+  }
+ 
+main .card h3 {
+    font-family: Times New Roman;
+    font-weight: bold;
+  }
+  hr {
+    border-bottom: solid white 1px;
+  }
+  
+  main .card .btn {
+    background: #0f2027; /* fallback for old browsers */
+    background: -webkit-linear-gradient(
+      to right,
+      #2c5364,
+      #203a43,
+      #0f2027
+    ); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(
+      to right,
+      #2c5364,
+      #203a43,
+      #0f2027
+    ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  }
+  
+  input {
+    background-color: #3475 !important;
+    color: white !important;
+  }
+  
+  ::placeholder {
+    color: white !important;
+  }
+  

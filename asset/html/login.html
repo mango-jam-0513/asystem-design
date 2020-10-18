@@ -1,42 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
-    <title>User Login</title>
-    <!--  include bootstrap css  -->
-    <link rel="stylesheet" href="../css/bootstrap.min.css">
-    <!--  include animate css  -->
-    <link rel="stylesheet" href="../css/animate.css">
-    <!--  include owl carousel css  -->
-    <link rel="stylesheet" href="../css/owl.carousel.min.css">
-    <!--  include fontawesome css  -->
-    <!-- <link rel="stylesheet" href="./asset/css/fontawesome5-8-1.css"> -->
-    <!-- style CSS -->
-    <link rel="stylesheet" href="../css/style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
-</head>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+        <title>advise</title>
+        <!--  include bootstrap css  -->
+        <link rel="stylesheet" href="../css/bootstrap.min.css">
+        <!--  include animate css  -->
+        <link rel="stylesheet" href="../css/animate.css">
+        <!--  include owl carousel css  -->
+        <link rel="stylesheet" href="../css/owl.carousel.min.css">
+        <!--  include fontawesome css  -->
+        <!-- <link rel="stylesheet" href="./asset/css/fontawesome5-8-1.css"> -->
+        <!-- style CSS -->
+        <link rel="stylesheet" href="../css/style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+    </head>
 <body>
-    <!-------------------------------------------Navbar -------------------------------------------->
     <nav class="navbar navbar-expand-md navbar-light  sticky-top">
         <div class="container-fluid">
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"> 
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <a href="#" class="navbar-brand">HOMEY</a>
+            <a href="userlogin.html"><img src="https://i.ibb.co/QDy827D/ak-logo.png" class="img-fluid" alt="logo" id="logoM"></a>
             <div class="collapse navbar-collapse" id="navbarResponsive">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-items active">
-                        <a href="userlogin.html" class="nav-link">Home</a>
+                        <a href="../../userlogin.html" class="nav-link">Home</a>
                     </li>
                     <li class="nav-items">
-                        <a href="#" class="nav-link">Greeting</a>
+                        <a href="./greeting.html" class="nav-link">Greeting</a>
                     </li>
                     <li class="nav-items">
-                        <a href="#" class="nav-link">Ground</a>
+                        <a href="./ground.html" class="nav-link">Ground</a>
                     </li>
                     <li class="nav-items">
-                        <a href="#" class="nav-link">Location</a>
+                        <a href="./location.html" class="nav-link">Location</a>
                     </li>
                     <li class="nav-items">
                         <a href="#" class="nav-link">Contact</a>
@@ -44,7 +43,7 @@
                 </ul>
             </div>
             <div class="login">
-                <input type="button" class="btn-login" value="login">
+                <a href="./login.html">login</a>
             </div>
             <div class="lang">
                 <div class="translate_wrapper">
@@ -77,13 +76,142 @@
             </div>
         </div>
     </nav>
-    <!------------------------------------------/ Navbar ------------------------------------------->
-    <div class="background container-fluid p-0">
-        <img src="../images/flat.jpg" alt="">
-        
-        
+    <!-- ----------------------------login------------------- -->
+    <main class="container my-5">
+        <div class="row">
+          <section class="col-md-6 my-5 offset-md-3">
+      
+            <div class="card shadow p-5">
+              <form>
+      
+                <h3 class="text-center text-uppercase mb-4">Login</h3>
+                <hr>
+      
+                <div class="form-group">
+                  <label>Email</label>
+                  <input type="email" placeholder="Email" class="form-control">
+                </div>
+      
+                <label for="Password">Password</label>
+                <div class="input-group mb-3">
+                  <input type="password" name="password" id="password" class="form-control" placeholder="Enter Password" aria-label="Enter Password" aria-describedby="basic-addon2">
+                  <div class="input-group-append">
+                    <span class="input-group-text" id="basic-addon2"><i class="fa fa-eye" aria-hidden="true"></i>
+                    </span>
+                  </div>
+                </div>
+      
+                <button class="btn btn-block btn-secondary rounded-pill mt-3">Login</button>
+      
+                <p class="mt-3 text-white">Don't have an Account ? <a href="#" class="text-white"> Create Here</a></p>
+      
+              </form>
+            </div>
+          </section>
+        </div>
+      </main>
+    <!-- ----------------------------/login------------------- -->
+    <footer class="footer-section">
+        <div class="container">
+            <div class="footer-cta pt-5 pb-5">
+                <div class="row">
+                    <div class="col-xl-4 col-md-4 mb-30">
+                        <div class="single-cta">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div class="cta-text">
+                                <h4>Find us</h4>
+                                <span>1010 Avenue, sw 54321, chandigarh</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-md-4 mb-30">
+                        <div class="single-cta">
+                            <i class="fas fa-phone"></i>
+                            <div class="cta-text">
+                                <h4>Call us</h4>
+                                <span>9876543210 0</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-md-4 mb-30">
+                        <div class="single-cta">
+                            <i class="far fa-envelope-open"></i>
+                            <div class="cta-text">
+                                <h4>Mail us</h4>
+                                <span>mail@info.com</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-content pt-5 pb-5">
+                <div class="row">
+                    <div class="col-xl-4 col-lg-4 mb-50">
+                        <div class="footer-widget">
+                            <div class="footer-logo">
+                                <a href="userlogin.html"><img src="https://i.ibb.co/QDy827D/ak-logo.png" class="img-fluid" alt="logo"></a>
+                            </div>
+                            <div class="footer-text">
+                                <p>Lorem ipsum dolor sit amet, consec tetur adipisicing elit, sed do eiusmod tempor incididuntut consec tetur adipisicing
+                                elit,Lorem ipsum dolor sit amet.</p>
+                            </div>
+                            <div class="footer-social-icon">
+                                <span>Follow us</span>
+                                <a href="#"><i class="fab fa-facebook-f facebook-bg"></i></a>
+                                <a href="#"><i class="fab fa-twitter twitter-bg"></i></a>
+                                <a href="#"><i class="fab fa-google-plus-g google-bg"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-lg-4 col-md-6 mb-30">
+                        <div class="footer-widget">
+                            <div class="footer-widget-heading">
+                                <h3>Useful Links</h3>
+                            </div>
+                            <ul>
+                                <li><a href="./userlogin.html">Home</a></li>
+                                <li><a href="./asset/html/greeting.html">Greeting</a></li>
+                                <li><a href="./asset/html/ground.html">Ground</a></li>
+                                <li><a href="./asset/html/location.html">Location</a></li>
+                                <li><a href="#">Contact</a></li>
+                                
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-lg-4 col-md-6 mb-50">
+                        <div class="footer-widget">
+                            <div class="footer-widget-heading">
+                                <h3>Subscribe</h3>
+                            </div>
+                            <div class="footer-text mb-25">
+                                <p>Don’t miss to subscribe to our new feeds, kindly fill the form below.</p>
+                            </div>
+                            <div class="subscribe-form">
+                                <form action="#">
+                                    <input type="text" placeholder="Email Address">
+                                    <button><i class="fab fa-telegram-plane"></i></button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="copyright-area">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-12 col-lg-12 text-center align-items-center justify-content-center">
+                        <div class="copyright-text">
+                            <p>Copyright &copy; 2020, All Right Reserved <a href="#">MangoJam</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
 
-    
+
+
     <!-- jquery -->
     <script src="../js/jquery-3.5.1.min.js"></script>
     <!-- bootstrap bundle js -->
@@ -92,6 +220,5 @@
     <script src="../js/owl.carousel.min.js"></script>
     <!-- custom js -->
     <script src="../js/custom.js"></script>
-    
 </body>
 </html>
