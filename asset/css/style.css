@@ -28,6 +28,8 @@ list-style-type: none;
 }
 .login a{
     margin-right: 1.3rem;
+    text-decoration: none;
+    color: white;
 }
 .hero-item {
     text-align: center;
@@ -554,14 +556,6 @@ ul {
  *, *:before, *:after {
 	 box-sizing: border-box;
 }
- a {
-	 text-decoration: none;
-	 color: #1ab188;
-	 transition: 0.5s ease;
-}
- a:hover {
-	 color: #179b77;
-}
  .form {
 	 background: rgba(19, 35, 47, .9);
 	 padding: 40px;
@@ -673,7 +667,7 @@ ul {
  .top-row > div:last-child {
 	 margin: 0;
 }
- .button {
+ #btn-login {
 	 border: 0;
 	 outline: none;
 	 border-radius: 0;
@@ -687,7 +681,7 @@ ul {
 	 transition: all 0.5s ease;
 	 -webkit-appearance: none;
 }
- .button:hover, .button:focus {
+ #btn-login:hover, #btn-login:focus {
 	 background: #179b77;
 }
  .button-block {
@@ -698,4 +692,26 @@ ul {
 	 margin-top: -20px;
 	 text-align: right;
 }
- 
+ /* ----------------repair-------------- */
+ .repair-request-list {
+     border: solid 2px rgb(45, 121, 151);
+ }
+ .repair-item h5, .repair-title h5{
+     margin: 5px 1px;
+ }
+ .repair-detail {
+     margin-top: 10px;
+ }
+ .repair-item div{
+     border: solid 2px rgb(45, 121, 151);
+     color: white;
+     background-color:  rgb(15, 76, 129);
+ }
+ .request-division {
+     background-color: rgb(141, 129, 62)!important;
+ }
+ .request-title {
+     background-color:  rgb(15, 76, 129);
+     color: white;
+     border: solid 2px rgb(45, 121, 151);
+ }
