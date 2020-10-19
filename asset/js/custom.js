@@ -29,7 +29,7 @@ function initMap() {
   
     /*TRANSLATE*/
     
-    // ---login-----
+    
     $('.more_lang .lang').click(function(){
       $(this).addClass('selected').siblings().removeClass('selected');
       $('.more_lang').removeClass('active');  
@@ -50,20 +50,50 @@ function initMap() {
       
     });
   });
-  $(document).ready(function () {
-    $("#basic-addon2").click(function () {
-      let passwordField = $("#password");
-      let passwordFieldAttr = passwordField.attr("type");
   
-      if (passwordFieldAttr == "password") {
-        passwordField.attr("type", "text");
-        $(this).html('<i class="fa fa-eye-slash" aria-hidden="true"></i>');
-      } else {
-        passwordField.attr("type", "password");
-        $(this).html('<i class="fa fa-eye" aria-hidden="true"></i>');
+  // ------------login----------
+  $('.form').find('input, textarea').on('keyup blur focus', function (e) {
+  
+    var $this = $(this),
+        label = $this.prev('label');
+  
+      if (e.type === 'keyup') {
+        if ($this.val() === '') {
+            label.removeClass('active highlight');
+          } else {
+            label.addClass('active highlight');
+          }
+      } else if (e.type === 'blur') {
+        if( $this.val() === '' ) {
+          label.removeClass('active highlight'); 
+        } else {
+          label.removeClass('highlight');   
+        }   
+      } else if (e.type === 'focus') {
+        
+        if( $this.val() === '' ) {
+          label.removeClass('highlight'); 
+        } 
+        else if( $this.val() !== '' ) {
+          label.addClass('highlight');
+        }
       }
-    });
+  
   });
   
+  $('.tab a').on('click', function (e) {
+    
+    e.preventDefault();
+    
+    $(this).parent().addClass('active');
+    $(this).parent().siblings().removeClass('active');
+    
+    target = $(this).attr('href');
+  
+    $('.tab-content > div').not(target).hide();
+    
+    $(target).fadeIn(600);
+    
+  });
   
    
